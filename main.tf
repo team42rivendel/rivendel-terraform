@@ -1,8 +1,5 @@
 provider "aws" {
   region = "us-east-1"
-  assume_role {
-    role_arn = "arn:aws:iam::485164690107:role/EC2Full"
-  }
 }
 
 
